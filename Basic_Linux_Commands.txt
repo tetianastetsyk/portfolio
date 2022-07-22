@@ -1,0 +1,63 @@
+1) Show where I am. 	                                            
+pwd
+
+2) Create new folder.				         
+mkdir HW
+
+3) Go to the folder. 		                                 
+cd HW
+
+4) Create 3 new folders.				         
+mkdir f1 f2 f3
+
+5) Go to any created folder.			         
+cd f1  
+
+6) Create 5 new files (3 txt, 2 json).		         
+touch t1.txt t2.txt t3.txt j1.json j2.json
+
+7) Create 3 new folders.				         
+mkdir f4 f5 f6
+
+8) List the contents of a folder.	         
+ls -la
+
+9) Open any txt file.		         
+vim t1.txt
+
+10) Type any text in it.    
+i + text
+
+11) Save and exit.			         
+Esc:wq
+
+12) Exit the folder to the level above.	         
+cd -
+
+13) Move any 2 files you created, to the other folder. 
+mv f1/j1.json f1/j2.json f2  
+
+14) Copy any 2 files you created, to the other folder. 
+cp f2/j1.json f2/j2.json f1
+
+15) Find file by its name.  
+find . -name t1.txt
+
+16) Show the contents of the file in a real time. 
+tail -f t1.txt
+
+17) Show the first few lines of any text file.
+head -n 3 t1.txt
+
+18) Show the last few lines of any text file. 
+tail -n 2 t1.txt
+
+19) Show the contents of the big file.
+less t1.txt
+
+20) Show date and time. 
+date 
+
+21) Send http request to the server. 
+curl http://162.55.220.72:5005/terminal-hw-request 
+ 
